@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npx nitropack dev",
+    "build": "npx nitropack build",
+    "preview": "node .output/server/index.mjs",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "nitropack": "latest"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.3",
+    "eslint": "^8.41.0"
+  }
+}
